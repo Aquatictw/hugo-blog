@@ -1,0 +1,21 @@
+version: "3.3"
+
+services:
+  web:
+    image: joseluisq/static-web-server:2
+    container_name: static-web-server 
+    environment:
+      # Note: those envs are customizable but also optional
+      - SERVER_HOST=127.0.0.1
+      - SERVER_PORT=8787
+      - SERVER_ROOT=/public
+    volumes:
+      - /home/self-host/hugo/hugo-blog/public:/public
+
+    networks:
+      - nginx_default
+    restart: unless-stopped
+
+networks:
+  nginx_default:
+    external: true
