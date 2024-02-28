@@ -1,6 +1,6 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://aquatictw.com
 
-languageCode: en-us
+languageCode: en-usaquatictw.com
 title: "John's Blog"
 
 # Use Hugo modules to add theme
@@ -64,7 +64,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/AquaticBUBU/hugo-blog
   # Default branch of your Git repo
   gitBranch: main
 
@@ -140,7 +140,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false 
       services:
         # Google Analytics
         google:
