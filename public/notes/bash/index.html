@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-tw">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <title>Bash Notes</title>
     <meta charset="UTF-8" />
@@ -119,7 +119,7 @@
     <a class="navbar-brand" href="/">
       
         <img src="/images/site/main-logo_hu9ad2f25a877e6fef77c7a3dbef5094ad_6881_42x0_resize_box_3.png" id="logo" alt="Logo">
-      John&#39;s Blog</a>
+      Aquatic的個人Blog</a>
     <button
       class="navbar-toggler navbar-light"
       id="navbar-toggler"
@@ -134,7 +134,7 @@
     <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
       <ul class="nav navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="/#home">Home</a>
+          <a class="nav-link" href="/#home">首頁</a>
         </li>
         
           
@@ -197,7 +197,7 @@
             
           
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">更多的</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 
                 
@@ -262,12 +262,12 @@
         
         
           <li class="nav-item">
-            <a class="nav-link" id="blog-link" href="/posts">Posts</a>
+            <a class="nav-link" id="blog-link" href="/posts">文章</a>
           </li>
         
         
           <li class="nav-item">
-            <a class="nav-link" id="note-link" href="/notes">Notes</a>
+            <a class="nav-link" id="note-link" href="/notes">筆記</a>
           </li>
         
         
@@ -277,40 +277,6 @@
               </li>
             
         
-        
-          
-
-  
-
-<li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        
-            
-            <span class="flag-icon flag-icon-gb"></span>
-        
-        English
-    </a>
-    <div class="dropdown-menu" aria-labelledby="languageSelector">
-        
-        <a class="dropdown-item nav-link languages-item" href="/notes/bash">
-            
-                
-                <span class="flag-icon flag-icon-gb"></span>
-            
-            English
-        </a>
-        
-        <a class="dropdown-item nav-link languages-item" href="/bn/notes/bash">
-            
-                
-                <span class="flag-icon flag-icon-bd"></span>
-            
-            বাংলা
-        </a>
-        
-    </div>
-    </li>
-
         
         
           <li class="nav-item dropdown">
@@ -350,18 +316,16 @@
       
   
   
-    
-  
 
   <section class="sidebar-section" id="sidebar-section">
     <div class="sidebar-holder">
       <div class="sidebar" id="sidebar">
         <form class="mx-auto" method="get" action="/search">
-          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+          <input type="text" name="keyword" value="" placeholder="搜索" data-search="" id="search-box" />
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/notes" data-filter="all">Notes</a></li>
+            <li id="list-heading"><a href="/notes" data-filter="all">筆記</a></li>
             <div class="subtree">
                 
   
@@ -529,6 +493,11 @@
 
         
       
+        
+          <h1 id="bash-notes">Bash Notes</h1>
+
+        
+      
     </div>
     <div class="paginator">
       
@@ -605,7 +574,7 @@
       <div class="row text-left">
         
         <div class="col-md-4 col-sm-12">
-          <h5>Navigation</h5>
+          <h5>導覽列</h5>
           
           <ul>
               
@@ -709,35 +678,19 @@
         
         
         <div class="col-md-4 col-sm-12">
-          <h5>Contact me:</h5>
+          <h5>聯絡方式:</h5>
           <ul>
             
               
-                <li><a href=mailto:johndoe@example.com target="_blank" rel="noopener">
-                  <span><i class="fas fa-envelope"></i></span> <span>johndoe@example.com</span>
+                <li><a href=mailto:hsuehchihchung@gmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>hsuehchihchung@gmail.com</span>
                 </a></li>
               
             
               
-                <li><a href=https://github.com/johndoe target="_blank" rel="noopener">
-                  <span><i class="fab fa-github"></i></span> <span>johndoe</span>
+                <li><a href=https://github.com/AquaticBUBU target="_blank" rel="noopener">
+                  <span><i class="fab fa-github"></i></span> <span>AquaticBUBU</span>
                 </a></li>
-              
-            
-              
-                <li><a href=https://www.linkedin.com/in/johndoe target="_blank" rel="noopener">
-                  <span><i class="fab fa-linkedin"></i></span> <span>John Doe</span>
-                </a></li>
-              
-            
-              
-                <li><span><i class="fas fa-phone-alt"></i></span> <span>&#43;0123456789</span></li>
-              
-            
-              
-                <li><a href=https://www.researchgate.net/profile/john-doe target="_blank" rel="noopener">
-                  <span><i class="fab fa-researchgate"></i></span> <span>John Doe</span>
-                </a></li>            
               
             
           </ul>
@@ -746,11 +699,6 @@
         
         
       </div>
-    </div>
-    
-    <hr />
-    <div class="container">
-      <p id="disclaimer"><strong>Liability Notice:</strong> This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses. You can modify or distribute the theme without requiring any permission from the theme author. However, the theme author does not provide any warranty or takes any liability for any issue with the theme.</p>
     </div>
     
     
@@ -763,7 +711,7 @@
             Toha
           </a>
         </div>
-        <div class="col-md-4 text-center">© 2020 Copyright.</div>
+        <div class="col-md-4 text-center">© 2024 Copyright.</div>
         <div class="col-md-4 text-right">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
           <img
@@ -779,7 +727,7 @@
   </footer>
 
 
-    <script src="/application.1444dd470beb750b111f274e62c643c5c3035d49d9327e6f86c4fb54ec98d00b.js" integrity="sha256-FETdRwvrdQsRHydOYsZDxcMDXUnZMn5vhsT7VOyY0As=" defer></script>
+    <script src="/application.31689e096edb2f089080423a00559bc131ced6aa0ff54ae44d9fc339a10dacc4.js" integrity="sha256-MWieCW7bLwiQgEI6AFWbwTHO1qoP9UrkTZ/DOaENrMQ=" defer></script>
 
 
     

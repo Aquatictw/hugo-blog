@@ -1,0 +1,17 @@
+# some information about you
+name: "Aquatic"
+nickname: "Aquatic"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "你好! 我是"
+image: "images/author/john.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "hsuehchihchung@gmail.com"
+  github: AquaticBUBU
+
+# some summary about what you do
+summary:
+  - 我是あくあクルー  
+  - 我喜歡打osu、看動漫 
+  - 平常會重訓、舉鐵
+
