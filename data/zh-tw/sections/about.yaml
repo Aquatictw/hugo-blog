@@ -1,104 +1,53 @@
 # section information
 section:
-  name: About
+  name: 關於 
   id: about
   enable: true
   weight: 1
   showOnNavbar: true
   template: sections/about.html
 
-# your designation
-designation: Software Engineer
-# your company information
+designation: Coding Enthusiast 
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: NTHU IPTH 
+  url: "https://ipth.site.nthu.edu.tw/"
 
-# your resume. this file path should be relative to you "static" directory
-# Dreprecated. Use resourceLinks instead.
-# resume: "files/resume.pdf"
+summary: "我是一個對資訊有熱忱的健身仔，目前就讀**靜心高中三年級**，透過特殊選才錄取**清大不分系**，預計就讀資工系。I am a fitness enthusiast with a passion for IT, currently studying at Chingshin High School. I have been admitted to Tsinghua University's Interdisciplinary Program and plan to pursue Computer Science." 
 
-# a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
-
-# your social links
-# give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "hsuehchihchung@gmail.com"
+
+- name: Youtube 
+  icon: "fab fa-youtube"
+  url: "https://www.youtube.com/channel/UCDcdYPhHB_prn7xNxqXmYdg"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://github.com/AquaticBUBU"
 
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+- name: Instagram 
+  icon: "fab fa-instagram"
+  url: "https://www.instagram.com/chocolateyqq/"
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "#"
+- name: Reddit 
+  icon: "fab fa-square-reddit"
+  url: "https://www.reddit.com/user/Forgotten_Who/"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
-
-- name: ResearchGate
-  icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/john-doe"
-
-# You can put custom buttons to link your relevant resources.
-# For example, you can put link for your resume.
-resourceLinks:
-- title: "My Resume"
-  url: "files/resume.pdf"
-
-# Show your badges
-# You can show your verifiable certificates from https://www.credly.com.
-# You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
-
-- type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
-
-- type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+  name: Certified Aqua Crew
+  url: "https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg"
+  badge: "https://i.imgur.com/B3OhbNo.png"
 
 - type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
+  name: 耍廢程度 
+  percentage: 90 
+  color: pink 
 
 - type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
+  name: 認真程度 
+  percentage: 15 
+  color: blue 
 
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
-
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
