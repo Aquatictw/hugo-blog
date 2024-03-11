@@ -6,4 +6,3 @@ menu:
     identifier: notes-bash
     weight: 20
 ---
-# Bash Notes

@@ -1,14 +1,18 @@
 name: "Aquatic"
 nickname: " 的小角落"
 greeting: "Aquatic"
-image: "images/author/author-head.png"
+image: "images/author/author-head.png" 
 
 contactInfo:
   email: "hsuehchihchung@gmail.com"
   github: AquaticBUBU 
+  discord:
+    icon: discord
+    text: aquatic0
 
 summary:
-  - 我是あくあクルー  
+  - 無論在什麼地方，什麼時候，我們終將會相遇相知，在那遙遠的蒼穹🌌
+  - 我是あくあクルー⚓ 
   - 我喜歡打osu、看動漫 
   - 我平常會重訓、舉鐵
   - 歡迎來到我的個人部落格

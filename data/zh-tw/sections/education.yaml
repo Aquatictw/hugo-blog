@@ -7,21 +7,10 @@ section:
   weight: 4
   showOnNavbar: true
 degrees:
-- name: Ph.D in Quantum Cryptography
+- name: Graduating high school at 18 
   icon: fa-microscope
-  timeframe: 2016-2020
+  timeframe: 2021-2024
   institution:
-    name: ABC University of Technology
-    url: "#"
-    logo: /images/sections/education/tech_college.png
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
+    name: Chingshin Academy 
+    url: "https://www.chjhs.tp.edu.tw/dispPageBox/MainHp.aspx?ddsPageID=MAINHP"
+    logo: "https://i.imgur.com/P2KcYs0.png"
