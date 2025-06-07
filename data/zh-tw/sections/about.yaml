@@ -12,7 +12,7 @@ company:
   name: NTHU IPTH 
   url: "https://ipth.site.nthu.edu.tw/"
 
-summary: "我是一個對資訊有熱忱的健身仔，目前就讀**靜心高中三年級**，透過特殊選才錄取**清大不分系**，預計就讀資工系。I am a fitness enthusiast with a passion for IT, currently studying at Chingshin High School. I have been admitted to Tsinghua University's Interdisciplinary Program and plan to pursue Computer Science." 
+summary: "我是一個對資訊有熱忱的健身仔，目前就讀**清華大學清華學院學士班**，未來預計就讀資工系。I am a fitness enthusiast with a passion for IT, currently studying at Tsinghua University's Interdisciplinary Program and plan to pursue Computer Science." 
 
 socialLinks:
 - name: Email
@@ -48,6 +48,6 @@ badges:
 
 - type: soft-skill-indicator
   name: 認真程度 
-  percentage: 15 
+  percentage: 10 
   color: blue 
 

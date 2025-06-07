@@ -7,10 +7,17 @@ section:
   weight: 4
   showOnNavbar: true
 degrees:
-- name: Graduating high school at 18 
-  icon: fa-microscope
+- name: Graduated high school at 18 
+  icon: fa-school
   timeframe: 2021-2024
   institution:
-    name: Chingshin Academy 
+    name: Chingshin Academy 靜心高中
     url: "https://www.chjhs.tp.edu.tw/dispPageBox/MainHp.aspx?ddsPageID=MAINHP"
-    logo: "https://i.imgur.com/P2KcYs0.png"
+    logo: /images/sections/education/chingshin.png
+- name: Currently studying at Tsinghua University
+  icon: fa-school
+  timeframe: 2024-
+  institution:
+    name: NTHU IPTH 清大不分系 28級
+    url: "https://ipth.site.nthu.edu.tw/"
+    logo: /images/sections/education/NTHU_Round_Seal.png

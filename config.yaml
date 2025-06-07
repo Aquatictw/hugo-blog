@@ -1,7 +1,7 @@
 baseURL: https://aquatictw.com
 
 languageCode: en-us
-title: "Aquatic 的部落格 --施工中--"
+title: "Aquatic 的部落格"
 
 # Use Hugo modules to add theme
 module:
@@ -73,7 +73,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false 
 
     # Enable comment feature. There, should be only one of them.
     comment:

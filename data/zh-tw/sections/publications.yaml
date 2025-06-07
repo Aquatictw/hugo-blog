@@ -1,82 +1,41 @@
-# section information
 section:
   name: Publications
   id: publications
   enable: true 
   weight: 6
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
-# filter buttons
 buttons:
 - name: All
   filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
+- name: "NLP"
+  filter: "NLP"
 
-# your publications
 publications:
-- title: An Example Paper on Machine Learning
+- title: Large Language Models on the Chessboard - A Study on ChatGPT's Formal Language Comprehension and Complex Reasoning Skills
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Symposium on Large Language Models (LLM 2023) @ IJCAI 2023
+    date: 21 Aug 2023 
+    url: https://bigmodel.ai/llm-ijcai23
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Mu-Tien Kuo
+  - name: Chih-Chung Hsueh
+  - name: Richard Tzong-Han Tsai
   paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+    summary: While large language models have made strides in natural language processing, their proficiency in complex reasoning tasks requiring formal language comprehension, such as chess, remains less investigated. This paper probes the performance of ChatGPT, a sophisticated language model by OpenAI in tackling such complex reasoning tasks, using chess as a case study. Through robust metrics examining both the legality and quality of moves, we assess ChatGPT’s understanding of the chessboard, adherence to chess rules, and strategic decision-making abilities. Our evaluation identifies limitations within ChatGPT’s attention mechanism that affect its formal language comprehension and uncovers the model’s underdeveloped self-regulation abilities.
+    url: https://arxiv.org/abs/2308.15118
+  tags: ["NLP", "Complex Reasoning", "Large Language Models"]
 
-- title: An Sample Paper on Image Processing
+- title: Automated Assessment of Fidelity and Interpretability - An Evaluation Framework for Large Language Models’ Explanations
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Proceedings of the AAAI Conference on Artificial Intelligence
+    date: 24 March 2024 
+    url: https://ojs.aaai.org/index.php/AAAI/article/view/30470 
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Mu-Tien Kuo
+  - name: Chih-Chung Hsueh
+  - name: Richard Tzong-Han Tsai
   paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
-
-- title: An Example Paper on Security
-  publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
-  authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
-  paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+    summary: As Large Language Models (LLMs) become more prevalent in various fields, it is crucial to rigorously assess the quality of their explanations. Our research introduces a task-agnostic framework for evaluating free-text rationales, drawing on insights from both linguistics and machine learning. We evaluate two dimensions of explainability - fidelity and interpretability. For fidelity, we propose methods suitable for proprietary LLMs where direct introspection of internal features is unattainable. For interpretability, we use language models instead of human evaluators, addressing concerns about subjectivity and scalability in evaluations.
+    url: https://arxiv.org/abs/2308.15118
+  tags: [ "NLP", "Large Language Models", "Explainability", "Fidelity", "Faithfulness", "Interpretability"]

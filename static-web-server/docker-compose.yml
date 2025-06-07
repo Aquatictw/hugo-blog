@@ -6,11 +6,9 @@ services:
     container_name: static-web-server 
     volumes:
       - /home/self-host/hugo/hugo-blog/public:/public
-
     networks:
-      - nginx_default
-    restart: unless-stopped
+      - web_apps 
 
 networks:
-  nginx_default:
+  web_apps:
     external: true
